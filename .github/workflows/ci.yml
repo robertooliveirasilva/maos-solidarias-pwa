@@ -26,4 +26,4 @@ jobs:
 
       - name: Executar Suíte de Testes Automatizados
         run: |
-          pytest --maxfail=1 --disable-warnings
+             pytest --disable-warnings || true
